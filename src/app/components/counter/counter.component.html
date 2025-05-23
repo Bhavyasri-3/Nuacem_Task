@@ -1,0 +1,16 @@
+<app-header [counterCount]="counters.length"></app-header>
+<br>
+<h3>Increment/Decrement Counter App:</h3>
+<div class="control-buttons">
+  <button (click)="reset()">Reset</button>
+  <button (click)="addCounter()">Add</button>
+</div>
+  <div *ngFor="let counter of counters" class="counter-row">
+    <div class="counter-value"> {{ counter.count}}</div>
+    <div class="button-group">
+        <button (click)="increment(counter)">Increment </button>
+        <button (click)="decrement(counter)">Decrement </button>
+        <button class="btn-danger" (click)="delete(counter.id)">Delete</button>
+    </div> 
+  </div>
+

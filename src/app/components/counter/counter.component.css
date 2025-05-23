@@ -1,0 +1,67 @@
+:host {
+    display: block;
+    padding: 20px;
+    font-family: Arial, sans-serif;
+  }
+  
+  button {
+    padding: 6px 12px;
+    font-size: 14px;
+    font-weight: 500;
+    border-radius: 6px;
+    cursor: pointer;
+    border: none;
+    transition: background-color 0.2s, transform 0.1s;
+  }
+  
+  button:active {
+    transform: scale(0.98);
+  }
+  
+  .control-buttons {
+    margin-bottom: 16px;
+  }
+  
+  .control-buttons button {
+    margin-right: 10px;
+    background-color: #007bff;
+    color: white;
+  }
+  
+  .counter-row {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+  
+  .counter-value {
+    color: #007bff;
+    font-weight: bold;
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    border-radius: 6px;
+    margin-right: 10px;
+  }
+  
+  .button-group {
+    display: flex;
+    gap: 8px;
+  }
+  
+  .button-group button:nth-child(1),
+  .button-group button:nth-child(2) {
+    background-color: #6c757d;
+    color: white;
+  }
+  
+  .button-group button:nth-child(3) {
+    background-color: #dc3545;
+    color: white;
+  }
+  
+  button:hover {
+    opacity: 0.9;
+  }
+  

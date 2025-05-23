@@ -1,0 +1,261 @@
+/* :host {
+    display: block;
+    padding: 20px;
+    font-family: Arial, sans-serif;
+  }
+  
+  .weather-app {
+    display: flex;
+    gap: 20px;
+    align-items: flex-start;
+    flex-wrap: wrap;
+  }
+  
+ 
+  .left-panel {
+    width: 250px;
+    border: 1px solid #ccc;
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    flex-grow: 0;
+    flex-shrink: 0;
+  }
+  
+  
+  .left-panel input {
+    width: 100%;
+    padding: 8px;
+    font-size: 14px;
+    border: 1px solid #aaa;
+    border-radius: 4px;
+    margin-bottom: 10px;
+  }
+  
+  .left-panel button.add-btn {
+    padding: 6px 12px;
+    background-color: #007bff;
+    color: white;
+    font-weight: bold;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    float: right;
+    margin-top: -38px;
+    margin-right: 4px;
+  }
+  
+  .recent-title {
+    font-size: 13px;
+    font-weight: bold;
+    color: #555;
+    margin: 10px 0 5px;
+  }
+  
+  .city-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 14px;
+    padding: 6px 0;
+    border-bottom: 1px solid #eee;
+  }
+  
+  .city-item span {
+    flex-grow: 1;
+    cursor: pointer;
+  }
+  
+  .city-item button {
+    background: none;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    margin-left: 6px;
+  }
+  
+  .clear-btn {
+    margin-top: 20px;
+    padding: 8px;
+    background-color: #ccc;
+    border: none;
+    cursor: pointer;
+    border-radius: 4px;
+  }
+  
+  .right-panel {
+    flex-grow: 1;
+    border: 1px solid #ccc;
+    padding: 15px;
+    position: relative;
+  }
+  
+  .right-panel h3 {
+    margin-top: 0;
+    font-size: 20px;
+    font-weight: bold;
+  }
+  
+  .refresh-main {
+    position: absolute;
+    top: 15px;
+    right: 15px;
+    background: none;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .weather-icon {
+    width: 120px;
+    height: 120px;
+    background-color: #f2f2f2;
+    margin: 10px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .weather-details {
+    font-size: 14px;
+    margin-bottom: 20px;
+  }
+  
+  .forecast-row {
+    display: flex;
+    gap: 10px;
+  }
+  
+  .forecast-item {
+    text-align: center;
+    width: 60px;
+  }
+  
+  .forecast-icon {
+    width: 40px;
+    height: 40px;
+    background-color: #eee;
+    margin: 0 auto 5px;
+  }
+   */
+
+
+
+   body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+  }
+  
+  h2 {
+    margin-bottom: 10px;
+  }
+  
+  .container {
+    display: flex;
+    border: 1px solid #ccc;
+    padding: 10px;
+  }
+  
+  .sidebar {
+    width: 250px;
+    border-right: 1px solid #ccc;
+    padding-right: 10px;
+  }
+  
+  .search-box {
+    display: flex;
+    margin-bottom: 10px;
+  }
+  
+  .search-box input {
+    flex: 1;
+    padding: 5px;
+  }
+  
+  .add-btn {
+    padding: 5px 10px;
+    margin-left: 5px;
+    cursor: pointer;
+  }
+  
+  .recent-label {
+    font-size: 12px;
+    color: gray;
+    margin-top: 10px;
+  }
+  
+  .recent-list {
+    list-style-type: none;
+    padding: 0;
+    margin-top: 10px;
+  }
+  
+  .recent-list li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 5px;
+  }
+  
+  .recent-list button {
+    margin-left: 5px;
+    cursor: pointer;
+  }
+  
+  .clear-btn {
+    margin-top: 20px;
+    padding: 5px;
+    width: 100%;
+  }
+  
+  .main {
+    flex: 1;
+    padding-left: 20px;
+  }
+  
+  .header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .weather-details {
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+  }
+  
+  .weather-icon {
+    width: 150px;
+    height: 150px;
+    border: 2px solid #999;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 20px;
+  }
+  
+  .weather-info p {
+    margin: 5px 0;
+  }
+  
+  .forecast {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+  }
+  
+  .day {
+    text-align: center;
+  }
+  
+  .icon {
+    width: 50px;
+    height: 50px;
+    border: 2px solid #ccc;
+    margin: 0 auto 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
